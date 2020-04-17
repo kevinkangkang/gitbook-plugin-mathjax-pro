@@ -1,0 +1,41 @@
+{
+	"name": "gitbook-plugin-mathjax-pro",
+	"description": "MathJAX integration into GitBook to display math and latex equations",
+	"main": "index.js",
+	"version": "0.0.5",
+	"engines": {
+		"gitbook": ">=2.0.0"
+	},
+	"homepage": "https://github.com/kevinkangkang/gitbook-plugin-mathjax-pro",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/kevinkangkang/gitbook-plugin-mathjax-pro.git"
+	},
+	"license": "Apache-2.0",
+	"bugs": {
+		"url": "https://github.com/kevinkangkang/gitbook-plugin-mathjax-pro/issues"
+	},
+	"dependencies": {
+		"crc": "^3.2.1",
+		"mathjax-node": "0.5.2",
+		"q": "^1.1.2"
+	},
+	"gitbook": {
+		"properties": {
+			"forceSVG": {
+				"default": false,
+				"title": "Force use of SVG images",
+				"type": "boolean"
+			},
+			"version": {
+				"default": "2.7.7",
+				"title": "Version of MathJAX to use for website rendering",
+				"type": "string"
+			}
+		}
+	},
+	"keywords": [
+		"math",
+		"latex"
+	]
+}
