@@ -14,7 +14,7 @@ The official gitbook plugin has been closed and would not get the maintaince and
 <blockquote style="background-color: #eef7fa; border-left-color: #428bca;border-radius: 3px; padding: 5px 15px 15px 15px;">
 <b style="color: #428bca; padding-left: 0px; line-height:40px">▲&nbsp;Important</b><br/>
 <div style="padding-left: 0px; color: #000000; word-wrap: break-word;">
-This plugin uses MathJax to display Math/TeX formula. This is an official plugin. Versions >=0.1.0 require GitBook >=2.0.0.<br/>
+Require GitBook >=2.0.0.<br/>
 </div></blockquote>
 
 # How to use it?
@@ -25,7 +25,7 @@ This plugin uses MathJax to display Math/TeX formula. This is an official plugin
 
 - Install the mathjax
 
-```shell
+```bash
 npm install mathjax@2.7.7
 ```
 
@@ -39,7 +39,7 @@ npm install mathjax@2.7.7
 
 - Install your plugins using:
 
-```shell
+```bash
 gitbook install ./
 ```
 
@@ -51,6 +51,11 @@ And then you can use mathjax in you gitbook.
 
 You can change the version of mathjax such as 2.7.5
 
+- Install the mathjax
+
+```bash
+npm install mathjax@2.7.5
+```
 
 - Adding it to `book.json`:
 
@@ -62,12 +67,6 @@ You can change the version of mathjax such as 2.7.5
         }
     }
 }
-```
-
-- Install the mathjax
-
-```shell
-npm install mathjax@2.7.5
 ```
 
 ## Use of svg

@@ -2,9 +2,9 @@
 	"name": "gitbook-plugin-mathjax-pro",
 	"description": "MathJAX integration into GitBook to display math and latex equations",
 	"main": "index.js",
-	"version": "0.0.5",
+	"version": "0.0.6",
 	"engines": {
-		"gitbook": ">=2.0.0"
+		"gitbook": ">=3.0.0"
 	},
 	"homepage": "https://github.com/kevinkangkang/gitbook-plugin-mathjax-pro",
 	"repository": {
